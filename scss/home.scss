@@ -1,0 +1,84 @@
+// this is making the main container to hold the objects within the section
+
+.home {
+  height: 500px;
+  width: 100%;
+  //   display: flex;
+  // background-color: yellow;
+  margin-top: 100px;
+
+  // My header with locking the position to keep it fixed in place while also transforming the size and stylization
+
+  h1 {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 50px;
+    height: 45px;
+    width: 230px;
+    font-size: 30px;
+    border-bottom: black solid 2px;
+    text-transform: uppercase;
+  }
+  // This is my initial block to modify multiple images within this set of code
+
+  .image {
+  }
+  // This is my Modifier for the seperate images
+
+  .image--1 {
+    background-image: url(../images/img_1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .image--2 {
+    background-image: url(../images/cbl-dirty.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .image--3 {
+    background-image: url(../images/cbl-clean.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  // This is the modifier for placing the photo in the webpage
+
+  .image--centered {
+    margin: 50px auto auto 50px;
+  }
+  .image--low {
+    margin: -275px auto auto 50px;
+  }
+
+  // this is my element that is dependent upon the block
+  .image__size-1 {
+    max-width: 500px;
+    height: 300px;
+  }
+  .image__size-2 {
+    max-width: 400px;
+    height: 200px;
+  }
+  // Simple paragraph class within the section to use to place the text
+
+  .para {
+    width: 600px;
+    height: 400px;
+  }
+
+  .para-2 {
+    width: 600px;
+    height: 200px;
+  }
+
+  .para__loca-1 {
+    margin: -260px 100px auto auto;
+  }
+  .para__loca-2 {
+    margin: -125px 100px auto auto;
+  }
+}
