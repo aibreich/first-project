@@ -23,46 +23,7 @@
 
   .image {
   }
-  // This is my Modifier for the seperate images
 
-  .image--1 {
-    background-image: url(../images/img_1.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .image--2 {
-    background-image: url(../images/cbl-dirty.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .image--3 {
-    background-image: url(../images/cbl-clean.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  // This is the modifier for placing the photo in the webpage
-
-  .image--centered {
-    margin: 50px auto auto 50px;
-  }
-  .image--low {
-    margin: -275px auto auto 50px;
-  }
-
-  // this is my element that is dependent upon the block
-  .image__size-1 {
-    max-width: 500px;
-    height: 300px;
-  }
-  .image__size-2 {
-    max-width: 400px;
-    height: 200px;
-  }
   // Simple paragraph class within the section to use to place the text
 
   .para {
@@ -74,11 +35,57 @@
     width: 600px;
     height: 200px;
   }
+}
+// This is my Modifier for the seperate images
 
-  .para__loca-1 {
-    margin: -260px 100px auto auto;
-  }
-  .para__loca-2 {
-    margin: -125px 100px auto auto;
-  }
+.image--1 {
+  background-image: url(../images/img_1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image--2 {
+  background-image: url(../images/cbl-dirty.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image--3 {
+  background-image: url(../images/cbl-clean.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+// This is the modifier for placing the photo in the webpage
+
+.image--centered {
+  margin: 50px auto auto 50px;
+}
+.image--low {
+  margin: -200px auto auto 50px;
+}
+
+// this is block modifiers
+.image__size-1 {
+  max-width: 500px;
+  height: 300px;
+}
+.image__size-2 {
+  max-width: 400px;
+  height: 200px;
+}
+.para__loca-1 {
+  margin: -260px 100px auto auto;
+}
+
+.para__loca-2 {
+  margin: -200px 100px auto auto;
+}
+.para__loca-3 {
+  margin: 30px 100px auto auto;
+}
+.font__size-1 {
+  font-size: 20px;
 }

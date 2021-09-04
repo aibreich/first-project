@@ -17,12 +17,14 @@ p {
   margin-bottom: 14px;
 }
 
+// to make section the size of viewport
 section {
   min-height: calc(100vh - 50px);
-  background-color: grey;
+  background-color: white;
   padding: 30px;
 }
 
+// to make the odd number of sections to turn light grey
 section:nth-child(odd) {
-  background-color: white;
+  background-color: lightgrey;
 }

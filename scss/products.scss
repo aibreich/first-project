@@ -1,0 +1,71 @@
+// products div container
+.products {
+  height: 300px;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  // block element
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+  .products-holder {
+    width: 600px;
+    margin: 40px auto 0 auto;
+  }
+}
+
+// block modifiers for the seperate photos
+.image--5 {
+  background-image: url(../images/cbl-fabric-cover.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image--6 {
+  background-image: url(../images/cbl-wire-duct.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image--7 {
+  background-image: url(../images/cb-ties.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image--8 {
+  background-image: url(../images/cbl-carrier.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image--9 {
+  background-image: url(../images/cbl-raceway.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image--10 {
+  background-image: url(../images/cbl-velcro.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image--11 {
+  background-image: url(../images/cbl-tray.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image--12 {
+  background-image: url(../images/cbl-sleeve.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

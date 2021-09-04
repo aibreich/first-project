@@ -21,12 +21,12 @@ p {
 
 section {
   min-height: calc(100vh - 50px);
-  background-color: grey;
+  background-color: white;
   padding: 30px;
 }
 
 section:nth-child(odd) {
-  background-color: white;
+  background-color: lightgrey;
 }
 
 nav {
@@ -72,38 +72,6 @@ footer {
   border-bottom: black solid 2px;
   text-transform: uppercase;
 }
-.home .image--1 {
-  background-image: url(../images/img_1.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.home .image--2 {
-  background-image: url(../images/cbl-dirty.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.home .image--3 {
-  background-image: url(../images/cbl-clean.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.home .image--centered {
-  margin: 50px auto auto 50px;
-}
-.home .image--low {
-  margin: -275px auto auto 50px;
-}
-.home .image__size-1 {
-  max-width: 500px;
-  height: 300px;
-}
-.home .image__size-2 {
-  max-width: 400px;
-  height: 200px;
-}
 .home .para {
   width: 600px;
   height: 400px;
@@ -112,9 +80,277 @@ footer {
   width: 600px;
   height: 200px;
 }
-.home .para__loca-1 {
+
+.image--1 {
+  background-image: url(../images/img_1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image--2 {
+  background-image: url(../images/cbl-dirty.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image--3 {
+  background-image: url(../images/cbl-clean.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image--centered {
+  margin: 50px auto auto 50px;
+}
+
+.image--low {
+  margin: -200px auto auto 50px;
+}
+
+.image__size-1 {
+  max-width: 500px;
+  height: 300px;
+}
+
+.image__size-2 {
+  max-width: 400px;
+  height: 200px;
+}
+
+.para__loca-1 {
   margin: -260px 100px auto auto;
 }
-.home .para__loca-2 {
-  margin: -125px 100px auto auto;
+
+.para__loca-2 {
+  margin: -200px 100px auto auto;
+}
+
+.para__loca-3 {
+  margin: 30px 100px auto auto;
+}
+
+.font__size-1 {
+  font-size: 20px;
+}
+
+.about {
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+}
+.about h1 {
+  padding-top: 50px;
+  margin: 0 auto;
+  height: 40px;
+  width: 230px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.about .box {
+  width: 240px;
+  height: 40px;
+  background-color: white;
+  margin: -5px auto;
+}
+.about .image {
+  max-width: 1480px;
+  height: 500px;
+}
+.about .para {
+  margin-top: 200px;
+  width: 900px;
+  height: 150px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.about .para-2 {
+  margin-top: 50px;
+  width: 900px;
+  height: 425px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.image--4 {
+  background-image: linear-gradient(to left, rgba(169, 169, 169, 0.8), rgba(169, 169, 169, 0.8)), url(../images/dirty_desk.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.para--centered {
+  margin: 0 auto;
+}
+
+.para__background {
+  background-color: white;
+}
+
+.font__size-2 {
+  font-size: 25px;
+}
+
+.products {
+  height: 300px;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.products .image {
+  width: 200px;
+  height: 200px;
+}
+.products .products-holder {
+  width: 600px;
+  margin: 40px auto 0 auto;
+}
+
+.image--5 {
+  background-image: url(../images/cbl-fabric-cover.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image--6 {
+  background-image: url(../images/cbl-wire-duct.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image--7 {
+  background-image: url(../images/cb-ties.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image--8 {
+  background-image: url(../images/cbl-carrier.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image--9 {
+  background-image: url(../images/cbl-raceway.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image--10 {
+  background-image: url(../images/cbl-velcro.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image--11 {
+  background-image: url(../images/cbl-tray.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image--12 {
+  background-image: url(../images/cbl-sleeve.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-top {
+  height: 500px;
+  width: 100%;
+  margin-top: 80px;
+}
+.contact-top h1 {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 50px;
+  height: 45px;
+  width: 330px;
+  font-size: 30px;
+  border-bottom: black solid 2px;
+  text-transform: uppercase;
+}
+.contact-top .para {
+  width: 600px;
+  height: 300px;
+}
+
+.para__margin-1 {
+  margin: 0 auto;
+}
+
+.para__margin-2 {
+  margin: -145px auto auto auto;
+}
+
+.contact-bottom {
+  width: 980px;
+  height: 660px;
+}
+.contact-bottom h1 {
+  width: 649px;
+  height: 45px;
+  font-family: gill;
+  font-size: 30px;
+  text-transform: uppercase;
+  border-bottom: black solid 2px;
+}
+.contact-bottom .contact-content {
+  width: 150px;
+  height: 560px;
+  margin: 0 auto;
+  display: flex;
+}
+.contact-bottom .contact-content .contact-box-holder {
+  width: 540px;
+  height: 550px;
+  justify-content: space-between;
+}
+.box-style-1 {
+  width: 530px;
+  height: 60px;
+  background-color: white;
+}
+
+.box-style-2 {
+  width: 530px;
+  height: 179px;
+  background-color: white;
+}
+
+.box-message {
+  width: 167px;
+  height: 60px;
+  background-color: lightblue;
+  margin: 0 auto;
+}
+
+.box__margin {
+  margin-top: 20px;
+}
+
+.text-box {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.text-box-message {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+  text-transform: uppercase;
 }

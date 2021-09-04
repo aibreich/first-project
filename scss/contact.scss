@@ -1,0 +1,103 @@
+// div for the top of contact page sections
+.contact-top {
+  height: 500px;
+  width: 100%;
+  margin-top: 80px;
+
+  h1 {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 50px;
+    height: 45px;
+    width: 330px;
+    font-size: 30px;
+    border-bottom: black solid 2px;
+    text-transform: uppercase;
+  }
+  // block element
+  .para {
+    width: 600px;
+    height: 300px;
+  }
+}
+
+// block modifiers
+.para__margin-1 {
+  margin: 0 auto;
+}
+
+.para__margin-2 {
+  margin: -145px auto auto auto;
+}
+// bottom contact section
+.contact-bottom {
+  width: 980px;
+  height: 660px;
+
+  h1 {
+    width: 649px;
+    height: 45px;
+    font-family: gill;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: black solid 2px;
+  }
+  // a seperate container for the refund order submission
+  .contact-content {
+    width: 150px;
+    height: 560px;
+    margin: 0 auto;
+    display: flex;
+
+    .contact-box-holder {
+      width: 540px;
+      height: 550px;
+      justify-content: space-between;
+
+      .box {
+        p {
+        }
+      }
+    }
+  }
+}
+
+// block modifiers
+
+.box-style-1 {
+  width: 530px;
+  height: 60px;
+  background-color: white;
+}
+
+.box-style-2 {
+  width: 530px;
+  height: 179px;
+  background-color: white;
+}
+.box-message {
+  width: 167px;
+  height: 60px;
+  background-color: lightblue;
+  margin: 0 auto;
+}
+
+.box__margin {
+  margin-top: 20px;
+}
+
+.text-box {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+// block element
+.text-box-message {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+  text-transform: uppercase;
+}

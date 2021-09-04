@@ -1,3 +1,4 @@
+// simple nav setup for four seperate sections
 nav {
   min-height: 50px;
   background-color: black;
@@ -12,6 +13,7 @@ nav {
   }
 }
 
+// makes the nav compress and work for mobile
 @media (max-width: 1000px) {
   nav {
     height: 100vh;
